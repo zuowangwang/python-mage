@@ -1,41 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf81d9e-a469-4a06-94b8-db52738de7c8" name="Default" comment="'测试一下'">
-      <change afterPath="$PROJECT_DIR$/assignment/week_10_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_11_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_12_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_1_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_2_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_3_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_4_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_5_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_6_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_7_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_8_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/week_9_zww.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/Completed/code.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/Completed/note.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/Completed/week_2_practise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/Completed/week_3_atm.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/Completed/week_3_practise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/Completed/week_4_practise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/Completed/week_5_practise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/Completed/week_6_practise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/ttest1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/week_10_practise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/week_12_practise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/week_7_practise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/week_8_practise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/week_9_practise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    <list default="true" id="fbf81d9e-a469-4a06-94b8-db52738de7c8" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mag363/.idea/mag363.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/.idea/mag363.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mag363/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mag363/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mag363/week_11_practise.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/week_11_practise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mag363/week_2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +51,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="20200430" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -232,10 +205,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.week_6_practise" />
-      <item itemvalue="Python.week_11_practise" />
-      <item itemvalue="Python.week_7_practise" />
       <item itemvalue="Python.ttest1" />
+      <item itemvalue="Python.week_11_practise" />
+      <item itemvalue="Python.week_6_practise" />
+      <item itemvalue="Python.week_7_practise" />
       <item itemvalue="Python tests.py.test in week_6_practise.py" />
     </list>
     <recent_temporary>
@@ -269,12 +242,15 @@
       <workItem from="1588131777323" duration="153000" />
       <workItem from="1588131942259" duration="15909000" />
     </task>
+    <task id="LOCAL-00001" summary="'测试一下 - 提交联系'">
+      <created>1588239034836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588239034836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="py_test_in_week_6_practise_py - 2020.01.06 at 14h 18m 05s.xml">
-      <configuration name="py.test in week_6_practise.py" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -305,7 +281,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试一下" />
     <MESSAGE value="'测试一下'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'测试一下'" />
+    <MESSAGE value="'测试一下 - 提交联系'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'测试一下 - 提交联系'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="207" key="#Notifications" timestamp="1587952265213">
@@ -321,10 +298,14 @@
     </state>
     <state x="573" y="169" key="#week_11_practise/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1588129102623" />
     <state x="573" y="169" key="#week_11_practise/0.0.1728.1112@0.0.1728.1112" timestamp="1587871392589" />
-    <state x="684" y="158" width="876" height="812" key="CommitChangelistDialog2" timestamp="1588238796954">
+    <state x="684" y="158" width="876" height="812" key="CommitChangelistDialog2" timestamp="1588239945374">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="684" y="158" width="876" height="812" key="CommitChangelistDialog2/0.0.1728.1112@0.0.1728.1112" timestamp="1588238796954" />
+    <state x="684" y="158" width="876" height="812" key="CommitChangelistDialog2/0.0.1728.1112@0.0.1728.1112" timestamp="1588239945374" />
+    <state x="482" y="126" width="1129" height="877" key="DiffContextDialog" timestamp="1588239638512">
+      <screen x="0" y="0" width="1728" height="1112" />
+    </state>
+    <state x="482" y="126" width="1129" height="877" key="DiffContextDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1588239638512" />
     <state x="663" y="303" key="FileChooserDialogImpl" timestamp="1588131950324">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
@@ -369,6 +350,14 @@
     </state>
     <state x="557" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1588131942529" />
     <state x="557" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1588043235802" />
+    <state x="902" y="465" key="git4idea.ui.GitStashDialog" timestamp="1588239515622">
+      <screen x="0" y="0" width="1728" height="1112" />
+    </state>
+    <state x="902" y="465" key="git4idea.ui.GitStashDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1588239515622" />
+    <state x="804" y="396" key="git4idea.ui.GitUnstashDialog" timestamp="1588239527504">
+      <screen x="0" y="0" width="1728" height="1112" />
+    </state>
+    <state x="804" y="396" key="git4idea.ui.GitUnstashDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1588239527504" />
     <state x="710" y="262" width="672" height="678" key="search.everywhere.popup" timestamp="1588238919752">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
