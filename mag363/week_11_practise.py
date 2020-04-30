@@ -364,3 +364,5 @@ import os  #导入
 #git commit -m "备注"
 #git commit -a -m '新增修改1'
 #git push origin zuowangwang
+
+#git push -f origin zuowangwang  #强制提交
