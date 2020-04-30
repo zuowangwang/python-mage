@@ -225,10 +225,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.week_6_practise" />
-      <item itemvalue="Python.week_11_practise" />
-      <item itemvalue="Python.week_7_practise" />
       <item itemvalue="Python.ttest1" />
+      <item itemvalue="Python.week_11_practise" />
+      <item itemvalue="Python.week_6_practise" />
+      <item itemvalue="Python.week_7_practise" />
       <item itemvalue="Python tests.py.test in week_6_practise.py" />
     </list>
     <recent_temporary>
