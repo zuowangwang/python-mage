@@ -369,13 +369,14 @@ import os  #导入
 #git push origin --delete zuowangwang #s删除分支
 #git branch -a 查看分支
 
+
 # 1) 切换到基础分支，如主干
 # git checkout master
 # 2）创建并切换到新分支
 # git checkout -b 20200430
 # git branch可以看到已经在panda分支上
 # 3)更新分支代码并提交
-# git add *
+# git add .
 # git commit -m "init 20200430"
 # git push origin 20200430
 # 4)在git代码管理界面经可以看到20200430分支了，成功~~
