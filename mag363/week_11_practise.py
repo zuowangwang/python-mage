@@ -361,6 +361,7 @@ import os  #导入
 
 
 #git add.
+#git status
 #git commit -m "备注"
 #git commit -a -m '新增修改1'
 #git push origin zuowangwang
@@ -383,3 +384,5 @@ import os  #导入
 
 #log 新建分支 new branch
 #删除分支，合并分支
+
+#强制切换分支 git checkout -f master
