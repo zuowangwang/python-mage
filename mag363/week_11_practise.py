@@ -51,11 +51,12 @@ class Werror(Exception):
     def __init__(self,code,message):
         self.code = code
         self.message = message
+
 def test5():
     try:
         # raise 1/0
         # print(lst[1])
-        raise  Werror(100 , '我指定的的异常信息')
+        raise  Werror(208 , '我指定的的异常信息')
     except Werror as e:
         print('Zerror',e)
         print(e.code , e.message)
@@ -67,6 +68,8 @@ def test5():
         print(e) #打印具体异常对象是什么
 
     print('捕获异常后，继续执行')
+
+
 
 
 
@@ -142,12 +145,13 @@ def test9():#立即修改异常
 class A:
     X = 1
 
-    __slots__ = 'y z a'.split()
+    # __slots__ = 'y z '.split()
     # __slots__ = tuple('y z a'.split())#只要是可迭代对象就可以，一般使用列表，节约内存用元组
 
     def __init__(self):
         self.y = 5
         self.z = 7
+        self.a = 6
 
 # print(A.__class__)
 # a = A()
@@ -155,8 +159,9 @@ class A:
 # # print(a.__dict__) #定义了__slots__之后就没有了
 # print(a.X)
 # print(a.y)
-# # print(a.a)
-# #使用需要构建在数百万以上对象，且内存容量较为紧张，实例的属性简单、固定且不用动态增加的场景。
+# print(a.a)
+
+#使用需要构建在数百万以上对象，且内存容量较为紧张，实例的属性简单、固定且不用动态增加的场景。
 
 
 
