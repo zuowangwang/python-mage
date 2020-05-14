@@ -104,14 +104,97 @@ def writezuhe():
     f.close()
 
 
+def copy_z():  #实现一个copy函数
+    filename1 = r'E:\python-mage\test.txt'
+    filename2 = r'E:\python-mage\test1.txt'
 
-#5.8
+    def copy(src, dest):
+     with open(src) as f1:
+        with open(dest, 'w') as f2:
+            f2.write(f1.read())
+
+    copy(filename1, filename2)
+
+
+#单词统计
+def word_z():
+    from collections import defaultdict
+    filename = r'E:\python-mage\test.txt'
+    # d = {}
+    d = defaultdict(lambda :0)
+    with open(filename,encoding='utf8') as f:
+        for line in f:
+            print(line)
+            words = line.split()
+            for word in map(str.lower, words):
+                # d[word] = d.get(word, 0) + 1
+                d[word] += 1
+    print(sorted(d.items(), key=lambda item: item[1], reverse=True))
+
+
+
+
+#内存中临时使用，不写入磁盘
+def StringIO_z():
+    from io import StringIO
+    from io import BytesIO
+    from sys import stdout, stderr, stdin
+    with StringIO() as f:
+        f.write('aaa')
+        f.seek(0)
+        print(f.read())
+        print(f.closed)
+
+    print(f.closed)
+
+
+
+def os_z():
+    from os import path
+    # linux ，路径
+    p = path.join('/E','python-mage','mag363')  #拼接linux路径
+    s = path.join('E:/','python-mage','mag363') #拼接windows路径
+    c = r'E:\python-mage\mag363\test.txt'
+    # print(p,s)
+    # print(path.exists(p))  #判断有没有这个路径,False因为这个是linux路径
+    # print(path.exists(s))  #True windows路径格式正确
+    #
+    #
+    # print(path.split(s))   #('E:/python-mage', 'mag363')切一刀
+    #
+    #
+    # print(path.abspath('a'))  #E:\python-mage\mag363\a
+    # print(path.abspath('.'))  #当前目录的绝对路径
+    # print(path.abspath('..')) #上级目录的绝对路径
+
+    # print(path.dirname(c)) #取目录是什么，E:\python-mage\mag363
+    # print(path.basename(c)) #取最后文件是什么，test.txt
+    # print(path.splitdrive(c)) #切除驱动器，windows,('E:', '\\python-mage\\mag363\\test.txt')
+
+    # p1 = path.abspath(__file__) #获取自己的绝对路径，然后层层上找，所有路径
+    # print(p1, path.basename(p1))
+    # while p1 != path.dirname(p1):
+    #     p1 = path.dirname(p1)
+    #     print(p1, path.basename(p1))
+
+
+def pathlib_z():
+    from pathlib import Path
+    p = Path()
+    p = Path('/etc','asd','vvvv')
+    # print(p) #\etc\asd\vvvv  linux路径
+    # print(p.absolute()) #E:\etc\asd\vvvv windows路径
+    # print(p / 'nn') #\etc\asd\vvvv\nn
+    # print(p.absolute() / 'cc') #E:\etc\asd\vvvv\cc
+    # print('pp' / p)  #不行，变成了字符串除法
+    # p1 =  p / 'nnc'
+    # print(p / p1)  #两个路径可以组合，去重组合
 
 
 
 
 
-
+pathlib_z()
 
 
 
