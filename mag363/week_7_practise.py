@@ -184,27 +184,136 @@ def pathlib_z():
     p = Path('/etc','asd','vvvv')
     # print(p) #\etc\asd\vvvv  linux路径
     # print(p.absolute()) #E:\etc\asd\vvvv windows路径
+
+
     # print(p / 'nn') #\etc\asd\vvvv\nn
     # print(p.absolute() / 'cc') #E:\etc\asd\vvvv\cc
     # print('pp' / p)  #不行，变成了字符串除法
+
     # p1 =  p / 'nnc'
     # print(p / p1)  #两个路径可以组合，去重组合
 
 
+    # print(p.parts) #拆解路径#('\\', 'etc', 'asd', 'vvvv')
+
+
+    # print(p.joinpath('x','c')) #当前路径上增加路径
+    #
+    # print(p.parent) #返回父路径
+    #
+    # print(p.parents) #返回一个可迭代对象，获得所有迭代父路径
+    # for i in p.parents:
+    #     print(i)
+
+    # p2 = p / 'ccccc.tar.gz'
+    # print(p2.name)  #获取文件名，最后一个
+    # print(p2.stem)  #去除扩展名
+    # print(p2.suffix) #获取后缀
+    # print(p2.suffixes) #获取所有后缀名
+    #
+    #
+    # print(p2.with_name('asad')) #替换最后一个名称
+    # print(p2.with_suffix('.py')) #替换文件后缀
+
+    # print(p.cwd())#当前文件路径
+    # print(p.home())#当前用户家目录
+
+    ## Path('E:/asdasd/asdasd/asdas').rmdir()#删除空目录
+    ## Path('E:/asdasd/asdasd/asdas').touch()#创建文件
+    ## Path('E:/asdasd/asdasd/asdas').mkdir()#创建目录  #默认不创建父目录
+    #mkdir(parents = True) #创建父目录，默认创建一层父目录
+    #mkdir(exist_ok=True) #如果存在不用提醒，默认提示存在的目录 3.5版本才有
+
+
+    c = Path()
+    # for i in c.iterdir(): #迭代当前目录中所有内容
+    #     print(i)
+
+
+    # for i in p.parents: #迭代当前所有目录
+    #     print(i)
+
+    # print(p.parents[len(p.parents) - 1]) #找到顶层父路径
+
+    # for x in p.parents[len(p.parents) - 1].iterdir(): #递归找到顶层目录中所有文件
+    #     # print(x, end='\t')
+    #     # print(x)
+    #     if x.is_dir():
+    #         print(x,'这是一个文件夹')
+    #         pass
+    #     elif x.is_file():
+    #         print(x,'这个是一个文件')
+    #         pass
 
 
 
-pathlib_z()
+    #递归查找文件
+    p = Path().absolute() #当前路径
+    #
+    # # print((p.parents[len(p.parents) - 1])) #顶层路径windows
+    # # p = p.parents[len(p.parents) - 1]
+    #
+    # print(p)
+    #
+    # # for i in list(p.glob('*.py')): #当前目录打印所有Py结尾的文件
+    # #     print(i)
+    # #week* 或者以这个开通的
+    # # for i in list(p.glob('**/*.py')): #递归当前往下所有目录Py结尾的文件
+    # #     print(i)
+    #
+    # for i in list(p.rglob('*.py')): #所有目录打印所有Py结尾的文件
+    #     print(i)
+
+    # print(p) #匹配路径
+    # print(p.match('week_10_practise.py'))
+    # print(p.match('mag363'))
+    # print(p.match('*/mag363'))
+    # print(p.match('python-mage\mag363'))
+    # print(p.match('python-mage\*'))
 
 
 
+    p = Path().absolute()  # 当前路径
+    p = Path('ttest1.py').absolute()
+    # print(p.stat()) #链接本身的文件信息
+    # # os.stat_result(st_mode=33206,
+    # # st_ino=562949953577999, st_dev=3637338224,
+    # # st_nlink=1, st_uid=0, st_gid=0, st_size=413,
+    # # st_atime=1588235735, st_mtime=1588235735, st_ctime=1588235735)
+    # print(hex(33206))
+    # print(bin(33206))
+    # print(p.lstat())
+
+    # l = Path('E:/python-mage/test.txt') #临时编写插入一下
+    # l.open()
+    # l.write_text('cccc')
+    # print(l.read_text())
+    # l.write_bytes(b'xyztab')
+    # print(l.read_bytes())
+
+    # with l.open() as f:
+    #     print(f.read(3))
 
 
+def sys_os():
+    import sys,os
+    print(sys.platform)  #查看操作系统
+    print(os.name)     #windows是nt , linux是posix，查看当前系统是什么系统
+    print(os.listdir()) #查看当前目录有什么文件
+    # os.chmod('test',0o777) #注意用的时候权限问题
+    # os.chown(path,uid,gid) #修改文件的属主，组，但是需要足够的权限
 
 
-
-
-
+def shutil_z():
+    import shutil,os
+    path1 = r'E:\python-mage\test.txt'
+    path2 = r'E:\python-mage\test1.txt'
+    # shutil.copy(path1,path2)  #拷贝A内容到B里面,拷贝文件和权限都进行copy
+    # shutil.rmtree('目标目录')#可以递归删除目录下的目录及文件。
+    # shutil.move('源文件','指定路径')#递归移动一个文件。
+    # shutil.copytree('源目录必须存在','目标目录必须不存在')#可以递归copy多个目录到指定目录下。
+    # print(os.stat(path1)) #查看文件状态，权限相关
+    # shutil.copyfile(path1, 'test3.txt')#复制成一个新文件
 
 
 
