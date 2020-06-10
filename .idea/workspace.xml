@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf81d9e-a469-4a06-94b8-db52738de7c8" name="Default" comment="path 5.14 89">
+    <list default="true" id="fbf81d9e-a469-4a06-94b8-db52738de7c8" name="Default" comment="path 5.15 91">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mag363/week_7_practise.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/week_7_practise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,17 +65,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../renderbus/adminApi" />
+    <property name="last_opened_file_path" value="C:/foxrenderfarmUi" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python-mage\test" />
       <recent name="E:\python-mage\mag363" />
       <recent name="E:\python-mage\mag363\Completed" />
       <recent name="E:\python-mage\assignment" />
@@ -234,7 +234,19 @@
       <workItem from="1588749089923" duration="1132000" />
       <workItem from="1588758515671" duration="165000" />
       <workItem from="1588841322219" duration="4164000" />
-      <workItem from="1588920676404" duration="35100000" />
+      <workItem from="1588920676404" duration="37594000" />
+      <workItem from="1589591283287" duration="4296000" />
+      <workItem from="1589961165703" duration="406000" />
+      <workItem from="1589961613219" duration="178000" />
+      <workItem from="1589961966165" duration="4966000" />
+      <workItem from="1589967235462" duration="5044000" />
+      <workItem from="1590476511739" duration="1925000" />
+      <workItem from="1590565483264" duration="6319000" />
+      <workItem from="1590804288805" duration="1158000" />
+      <workItem from="1591170006603" duration="808000" />
+      <workItem from="1591262853744" duration="15000" />
+      <workItem from="1591263003986" duration="320000" />
+      <workItem from="1591340133401" duration="3679000" />
     </task>
     <task id="LOCAL-00001" summary="'测试一下 - 提交联系'">
       <created>1588239034836</created>
@@ -278,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589443758360</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="path 5.15 91">
+      <created>1589535725922</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589535725922</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +365,8 @@
     <MESSAGE value="7week" />
     <MESSAGE value="7week-5.8" />
     <MESSAGE value="path 5.14 89" />
-    <option name="LAST_COMMIT_MESSAGE" value="path 5.14 89" />
+    <MESSAGE value="path 5.15 91" />
+    <option name="LAST_COMMIT_MESSAGE" value="path 5.15 91" />
   </component>
   <component name="WindowStateProjectService">
     <state x="475" y="207" key="#Notifications" timestamp="1588241389117">
@@ -362,39 +382,39 @@
     </state>
     <state x="573" y="169" key="#week_11_practise/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1588129102623" />
     <state x="573" y="169" key="#week_11_practise/0.0.1728.1112@0.0.1728.1112" timestamp="1587871392589" />
-    <state x="571" y="141" width="876" height="812" key="CommitChangelistDialog2" timestamp="1589443757468">
+    <state x="571" y="141" width="876" height="812" key="CommitChangelistDialog2" timestamp="1589535725220">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="571" y="141" width="876" height="812" key="CommitChangelistDialog2/0.0.1728.1112@0.0.1728.1112" timestamp="1589443757468" />
+    <state x="571" y="141" width="876" height="812" key="CommitChangelistDialog2/0.0.1728.1112@0.0.1728.1112" timestamp="1589535725220" />
     <state x="482" y="126" width="1129" height="877" key="DiffContextDialog" timestamp="1588239638512">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="482" y="126" width="1129" height="877" key="DiffContextDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1588239638512" />
-    <state x="663" y="303" key="FileChooserDialogImpl" timestamp="1589331779006">
+    <state x="663" y="303" key="FileChooserDialogImpl" timestamp="1591170211941">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="663" y="303" key="FileChooserDialogImpl/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1588131950324" />
-    <state x="663" y="303" key="FileChooserDialogImpl/0.0.1728.1112@0.0.1728.1112" timestamp="1589331779006" />
-    <state width="943" height="308" key="GridCell.Tab.0.bottom" timestamp="1589535705228">
+    <state x="663" y="303" key="FileChooserDialogImpl/0.0.1728.1112@0.0.1728.1112" timestamp="1591170211941" />
+    <state width="1685" height="306" key="GridCell.Tab.0.bottom" timestamp="1591374543813">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1273" height="253" key="GridCell.Tab.0.bottom/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1588144349167" />
-    <state width="943" height="308" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1589535705228" />
-    <state width="943" height="308" key="GridCell.Tab.0.center" timestamp="1589535705228">
+    <state width="948" height="307" key="GridCell.Tab.0.bottom/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1590025263283" />
+    <state width="1685" height="306" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1591374543813" />
+    <state width="1685" height="306" key="GridCell.Tab.0.center" timestamp="1591374543813">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1273" height="253" key="GridCell.Tab.0.center/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1588144349167" />
-    <state width="943" height="308" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1589535705228" />
-    <state width="943" height="308" key="GridCell.Tab.0.left" timestamp="1589535705228">
+    <state width="948" height="307" key="GridCell.Tab.0.center/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1590025263283" />
+    <state width="1685" height="306" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1591374543813" />
+    <state width="1685" height="306" key="GridCell.Tab.0.left" timestamp="1591374543813">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1273" height="253" key="GridCell.Tab.0.left/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1588144349166" />
-    <state width="943" height="308" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1589535705228" />
-    <state width="943" height="308" key="GridCell.Tab.0.right" timestamp="1589535705228">
+    <state width="948" height="307" key="GridCell.Tab.0.left/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1590025263283" />
+    <state width="1685" height="306" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1591374543813" />
+    <state width="1685" height="306" key="GridCell.Tab.0.right" timestamp="1591374543813">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1273" height="253" key="GridCell.Tab.0.right/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1588144349167" />
-    <state width="943" height="308" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1589535705228" />
+    <state width="948" height="307" key="GridCell.Tab.0.right/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1590025263283" />
+    <state width="1685" height="306" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1591374543813" />
     <state x="231" y="84" key="MergeDialog" timestamp="1588241363184">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
@@ -403,11 +423,11 @@
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="638" y="263" key="MultipleFileMergeDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1588241697774" />
-    <state x="344" y="166" key="SettingsEditor" timestamp="1588848482023">
+    <state x="344" y="166" key="SettingsEditor" timestamp="1591263321655">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="368" y="201" key="SettingsEditor/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1588132278338" />
-    <state x="344" y="166" key="SettingsEditor/0.0.1728.1112@0.0.1728.1112" timestamp="1588848482023" />
+    <state x="732" y="211" key="SettingsEditor/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1589968339048" />
+    <state x="344" y="166" key="SettingsEditor/0.0.1728.1112@0.0.1728.1112" timestamp="1591263321655" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1587889000888">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
@@ -417,18 +437,19 @@
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="639" y="298" key="Vcs.Push.Dialog.v2/0.0.1728.1112@0.0.1728.1112" timestamp="1588238769672" />
-    <state x="557" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1588920676905">
+    <state x="557" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1591784255310">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="557" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1588131942529" />
-    <state x="557" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1588920676905" />
+    <state x="557" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1589967235450" />
+    <state x="557" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1591784255310" />
     <state x="724" y="465" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588241693586">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="724" y="465" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1728.1112@0.0.1728.1112" timestamp="1588241693586" />
-    <state x="984" y="160" width="642" height="801" key="find.popup" timestamp="1588491436275">
+    <state x="984" y="160" width="642" height="801" key="find.popup" timestamp="1589969338167">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
+    <state x="984" y="160" width="642" height="801" key="find.popup/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1589969338167" />
     <state x="984" y="160" width="642" height="801" key="find.popup/0.0.1728.1112@0.0.1728.1112" timestamp="1588491436275" />
     <state x="902" y="465" key="git4idea.ui.GitStashDialog" timestamp="1588239515622">
       <screen x="0" y="0" width="1728" height="1112" />
@@ -438,15 +459,15 @@
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="804" y="396" key="git4idea.ui.GitUnstashDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1588239527504" />
-    <state x="710" y="262" width="672" height="678" key="search.everywhere.popup" timestamp="1589441970155">
+    <state x="710" y="262" width="672" height="678" key="search.everywhere.popup" timestamp="1589537100356">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="710" y="262" width="672" height="678" key="search.everywhere.popup/0.0.1728.1112@0.0.1728.1112" timestamp="1589441970155" />
+    <state x="710" y="262" width="672" height="678" key="search.everywhere.popup/0.0.1728.1112@0.0.1728.1112" timestamp="1589537100356" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_mage$week_8_practise.coverage" NAME="week_8_practise Coverage Results" MODIFIED="1588758636854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$ttest1.coverage" NAME="ttest1 Coverage Results" MODIFIED="1588847697147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$week_11_practise.coverage" NAME="week_11_practise Coverage Results" MODIFIED="1588849312975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
-    <SUITE FILE_PATH="coverage/python_mage$week_7_practise.coverage" NAME="week_7_practise Coverage Results" MODIFIED="1589535705224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$week_7_practise.coverage" NAME="week_7_practise Coverage Results" MODIFIED="1591374543796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
   </component>
 </project>

@@ -1,33 +1,34 @@
-#-*- comding:utf-8   -*-
-#80开始  95结束
+# -*- comding:utf-8   -*-
+# 80开始  95结束
 
 
-#文件操作
+# 文件操作
 def write1():
-    #a文件存在,只写打开,追加内容文件不存在，则创建后,只写打开,追加内容
-    #r是只读, wxa都是只写。wxa都可以产生新文件 , w不管文件存在与否,都会生成全新内容的文件;
+    # a文件存在,只写打开,追加内容文件不存在，则创建后,只写打开,追加内容
+    # r是只读, wxa都是只写。wxa都可以产生新文件 , w不管文件存在与否,都会生成全新内容的文件;
     # a不管文件是否存在,都能在打开的文件尾部追加; x必须要求文件事先不存在,自己造一个新文件
 
     path1 = r'E:\python-mage\test.txt'
 
-    f = open(path1)  #默认打开模式r,只读不能写
+    f = open(path1)  # 默认打开模式r,只读不能写
     print(f)
-    print(f.read())  #读取文件
-    f.close()  #关闭
+    print(f.read())  # 读取文件
+    f.close()  # 关闭
 
-    f = open(path1,'w')#打开模式写模式w--覆盖,生成新的文件
+    f = open(path1, 'w')  # 打开模式写模式w--覆盖,生成新的文件
     f.write('abc')
-    f.close()  #关闭文件，关闭后不允许操作
+    f.close()  # 关闭文件，关闭后不允许操作
 
-    f = open(path1,'a')#打开模式a,追加写模式，没有就创建，有就创建，一般写日志
+    f = open(path1, 'a')  # 打开模式a,追加写模式，没有就创建，有就创建，一般写日志
     f.write('123abc')
-    f.close()  #关闭文件，关闭后不允许操作
+    f.close()  # 关闭文件，关闭后不允许操作
 
     f = open(path1)
-    print(f.read())  #读取文件
-    f.close()  #关闭
+    print(f.read())  # 读取文件
+    f.close()  # 关闭
 
-#创建小文件到目录
+
+# 创建小文件到目录
 def te_1():
     def mkdir(path):
         import os
@@ -42,9 +43,8 @@ def te_1():
             print(path + ' False')
             return False
 
-
-    for i in range(1000,10000):
-    # F:\Downloads\文件夹
+    for i in range(1000, 10000):
+        # F:\Downloads\文件夹
         mkpath = "F:\Downloads\文件夹\%s" % i
         print(mkpath)
         mkdir(mkpath)
@@ -52,9 +52,8 @@ def te_1():
         file.write('hello you \n  test 10000 file')
 
 
-#计算多个组合排列，然后写入文件
+# 计算多个组合排列，然后写入文件
 def writezuhe():
-
     a = [
         "任意的",
         "自动垂直",
@@ -104,25 +103,25 @@ def writezuhe():
     f.close()
 
 
-def copy_z():  #实现一个copy函数
+def copy_z():  # 实现一个copy函数
     filename1 = r'E:\python-mage\test.txt'
     filename2 = r'E:\python-mage\test1.txt'
 
     def copy(src, dest):
-     with open(src) as f1:
-        with open(dest, 'w') as f2:
-            f2.write(f1.read())
+        with open(src) as f1:
+            with open(dest, 'w') as f2:
+                f2.write(f1.read())
 
     copy(filename1, filename2)
 
 
-#单词统计
+# 单词统计
 def word_z():
     from collections import defaultdict
     filename = r'E:\python-mage\test.txt'
     # d = {}
-    d = defaultdict(lambda :0)
-    with open(filename,encoding='utf8') as f:
+    d = defaultdict(lambda: 0)
+    with open(filename, encoding='utf8') as f:
         for line in f:
             print(line)
             words = line.split()
@@ -132,9 +131,7 @@ def word_z():
     print(sorted(d.items(), key=lambda item: item[1], reverse=True))
 
 
-
-
-#内存中临时使用，不写入磁盘
+# 内存中临时使用，不写入磁盘
 def StringIO_z():
     from io import StringIO
     from io import BytesIO
@@ -148,12 +145,11 @@ def StringIO_z():
     print(f.closed)
 
 
-
 def os_z():
     from os import path
     # linux ，路径
-    p = path.join('/E','python-mage','mag363')  #拼接linux路径
-    s = path.join('E:/','python-mage','mag363') #拼接windows路径
+    p = path.join('/E', 'python-mage', 'mag363')  # 拼接linux路径
+    s = path.join('E:/', 'python-mage', 'mag363')  # 拼接windows路径
     c = r'E:\python-mage\mag363\test.txt'
     # print(p,s)
     # print(path.exists(p))  #判断有没有这个路径,False因为这个是linux路径
@@ -181,10 +177,9 @@ def os_z():
 def pathlib_z():
     from pathlib import Path
     p = Path()
-    p = Path('/etc','asd','vvvv')
+    p = Path('/etc', 'asd', 'vvvv')
     # print(p) #\etc\asd\vvvv  linux路径
     # print(p.absolute()) #E:\etc\asd\vvvv windows路径
-
 
     # print(p / 'nn') #\etc\asd\vvvv\nn
     # print(p.absolute() / 'cc') #E:\etc\asd\vvvv\cc
@@ -193,9 +188,7 @@ def pathlib_z():
     # p1 =  p / 'nnc'
     # print(p / p1)  #两个路径可以组合，去重组合
 
-
     # print(p.parts) #拆解路径#('\\', 'etc', 'asd', 'vvvv')
-
 
     # print(p.joinpath('x','c')) #当前路径上增加路径
     #
@@ -221,14 +214,12 @@ def pathlib_z():
     ## Path('E:/asdasd/asdasd/asdas').rmdir()#删除空目录
     ## Path('E:/asdasd/asdasd/asdas').touch()#创建文件
     ## Path('E:/asdasd/asdasd/asdas').mkdir()#创建目录  #默认不创建父目录
-    #mkdir(parents = True) #创建父目录，默认创建一层父目录
-    #mkdir(exist_ok=True) #如果存在不用提醒，默认提示存在的目录 3.5版本才有
-
+    # mkdir(parents = True) #创建父目录，默认创建一层父目录
+    # mkdir(exist_ok=True) #如果存在不用提醒，默认提示存在的目录 3.5版本才有
 
     c = Path()
     # for i in c.iterdir(): #迭代当前目录中所有内容
     #     print(i)
-
 
     # for i in p.parents: #迭代当前所有目录
     #     print(i)
@@ -245,10 +236,8 @@ def pathlib_z():
     #         print(x,'这个是一个文件')
     #         pass
 
-
-
-    #递归查找文件
-    p = Path().absolute() #当前路径
+    # 递归查找文件
+    p = Path().absolute()  # 当前路径
     #
     # # print((p.parents[len(p.parents) - 1])) #顶层路径windows
     # # p = p.parents[len(p.parents) - 1]
@@ -270,8 +259,6 @@ def pathlib_z():
     # print(p.match('*/mag363'))
     # print(p.match('python-mage\mag363'))
     # print(p.match('python-mage\*'))
-
-
 
     p = Path().absolute()  # 当前路径
     p = Path('ttest1.py').absolute()
@@ -296,33 +283,145 @@ def pathlib_z():
 
 
 def sys_os():
-    import sys,os
-    print(sys.platform)  #查看操作系统
-    print(os.name)     #windows是nt , linux是posix，查看当前系统是什么系统
-    print(os.listdir()) #查看当前目录有什么文件
+    import sys, os
+    print(sys.platform)  # 查看操作系统
+    print(os.name)  # windows是nt , linux是posix，查看当前系统是什么系统
+    print(os.listdir())  # 查看当前目录有什么文件
     # os.chmod('test',0o777) #注意用的时候权限问题
     # os.chown(path,uid,gid) #修改文件的属主，组，但是需要足够的权限
 
 
 def shutil_z():
-    import shutil,os
+    import shutil, os
     path1 = r'E:\python-mage\test.txt'
     path2 = r'E:\python-mage\test1.txt'
     # shutil.copy(path1,path2)  #拷贝A内容到B里面,拷贝文件和权限都进行copy
-    # shutil.rmtree('目标目录')#可以递归删除目录下的目录及文件。
+    # shutil.rmtree('目标目录o:/tmp')#可以递归删除目录下的目录及文件。
     # shutil.move('源文件','指定路径')#递归移动一个文件。
     # shutil.copytree('源目录必须存在','目标目录必须不存在')#可以递归copy多个目录到指定目录下。
     # print(os.stat(path1)) #查看文件状态，权限相关
     # shutil.copyfile(path1, 'test3.txt')#复制成一个新文件
 
+    # from pathlib import Path
+    # p = Path('a/b/c/d')
+    # p = ('E:/' / p)
+    # p.mkdir(parents=True)
+    # Path('E:/a/a.py').touch()#创建文件
+    # Path('E:/a/b/a.py').touch()
+
+def cv2pil_z(): #相片充填文字方法
+    #https://zhuanlan.zhihu.com/p/141721317
+    import cv2 #用来读取照片
+    from PIL import Image, ImageDraw, ImageFont #用来生成新的图片
+    font_path = r'C:\Windows\Fonts\simsun.ttc' #字体地址
+    picpath = r'E:\python-mage\111.jpg' #修改图片原相片
+
+    def draw(pic, draw_text):
+        img = cv2.imread(pic)
+        blank = Image.new("RGB", [img.shape[1], img.shape[0]], "white")
+        drawObj = ImageDraw.Draw(blank)
+
+        n = 10  # 读取像素的间隔
+        m = 9  # 字体的大小
+
+        font = ImageFont.truetype(font_path, size=m)
+
+        for i in range(0, img.shape[0], n):
+            for j in range(0, img.shape[1], n):
+                drawObj.text(
+                    [j, i],
+                    draw_text[int(j / n) % len(draw_text)],
+                    fill=(img[i][j][2], img[i][j][1], img[i][j][0]),
+                    font=font
+                )
+
+        blank.save(r'E:\python-mage\2.jpg')  #保存路径
+
+    draw(picpath, "我爱你")   #相片地址  与  填充的字体
 
 
 
+def path_zz():
+    from pathlib import Path
+    import os
+
+    p = Path('E:/python-mag/test/b.csv')
+    print(p.parent)
+    print(os.getcwd())
+
+
+def csv_file():#生成一个文件
+    from pathlib import Path
+    p = Path('E:/python-mage/test/test.csv')
+    parent = p.parent
+    if not parent.exists():
+        parent.mkdir(parents=True)
+    csv_body = '''\
+    id,name,age,comment
+    1,zs,18,"I'm 18"
+    2,ls,20,"this is a ""test"" string."
+    3,ww,23,"你好
+    计算机
+    "
+    '''
+    p.write_text(csv_body)
 
 
 
+def csv_r():#循环读取每一行
+    import  csv
+    from pathlib import Path
+    p = Path('E:/python-mage/test/test.csv')
+    with open(str(p)) as f:
+        reader = csv.reader(f)
+        for line in reader:
+            print(line)
+
+
+def csv_w():#写入单行和多行
+    import  csv
+    from pathlib import Path
+    p = Path('E:/python-mage/test/test.csv')
+
+    rows = [
+        [4, 'tom', 22, 'tom','','',''],
+        (5, 'jerry', 24, 'jerry'),
+        (6, 'justin', 22, 'just\t"in'),
+        range(5),
+        ['tom'],
+        'abcdefghi',
+        ((1,), (2,))
+    ]
+
+    with open(str(p), 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(rows[0]) #写入单行
+        writer.writerows(rows) #多行写入
+
+def ini_f():
+    from pathlib import Path
+    from configparser import ConfigParser
+    filename = Path('E:/python-mage/test/test.ini')
+    newfilename = Path('E:/python-mage/test/mysql.ini')
+
+    cfg  = ConfigParser()
+    readok = cfg.read(filename)
+    print(readok)
+    print('_'*30)
+
+    print(cfg.sections())  #拿到所有section
+    print(cfg.options('mysqlconf')) #取section里面的k
+    print(cfg.get('mysqlconf','a'))#取section里面的k对应的y
+    print(type(cfg.get('mysqlconf','a')))
+    ##DEFAULT 缺省值的作用
+    # print(cfg.get('mysqlconf', 'zzz'))#取section里面的没有的k对应的y
+
+    # for section in cfg.sections():
+    #     for option in cfg.options(section):
+    #         print(section,option,cfg.get(section,option))
 
 
 
+ini_f()
 
 
