@@ -118,7 +118,7 @@ def copy_z():  # 实现一个copy函数
 # 单词统计
 def word_z():
     from collections import defaultdict
-    filename = r'E:\python-mage\test.txt'
+    filename = r'/test.txt'
     # d = {}
     d = defaultdict(lambda: 0)
     with open(filename, encoding='utf8') as f:
@@ -420,8 +420,200 @@ def ini_f():
     #     for option in cfg.options(section):
     #         print(section,option,cfg.get(section,option))
 
+    # #添加删除
+    # import configparser
+    # config = configparser.ConfigParser()
+    # config.read('example.ini')  #读文件
+    # config.add_section('yuan')  #添加section
+    # config.remove_section('bitbucket.org') #删除section
+    # config.remove_option('topsecret.server.com',"forwardx11") #删除一个配置想
+    # config.set('topsecret.server.com','k1','11111')
+    # config.set('yuan','k2','22222')
+    # with open('new2.ini','w') as f:
+    #      config.write(f)
+
+def pickle_z():
+
+    import pickle
+    i = 99
+    s = 'ABC'
+    l = {'a':0x111111, 'b':'abcd' , 'c':[1,2,3] }
+    with open('/test/ser', 'wb') as f:   #写
+        pickle.dump(i, f)
+        pickle.dump(s, f)
+        pickle.dump(l, f)
+
+    with open('/test/ser', 'rb') as f:   #读
+        tmp = pickle.load(f)
+        print(type(tmp), tmp)
+        tmp = pickle.load(f)
+        print(type(tmp), tmp)
+        tmp = pickle.load(f)
+        print(type(tmp), tmp)
 
 
-ini_f()
+
+def pickle_z1():
+    pass
+
+'''
+# 版本1
+import pickle
+class AA:
+    aaaa = 0x111111
+    def __init__(self):
+        self.name = 'ccc'
+
+    def show(self):
+        print('abc')
+
+
+x = AA()
+print(x)
+print(id(x))   #查询ID
+
+
+with open('E:/python-mage/test/ser', 'wb') as f:  # 写
+    pickle.dump(x, f)
+
+with open('E:/python-mage/test/ser', 'rb') as f:  # 读
+    a = pickle.load(f)
+    print(a, type(a))
+    print(hex(a.aaaa))
+    a.show()
+    print(id(a))
+    print(a.name)
+'''
+
+def pickle_z2():
+    pass
+
+'''
+# 版本2
+import pickle
+class AA:
+    aaaa = 0x111111
+    def show(self):
+        print('abc')
+
+x = AA()
+print(x)
+print(id(x))   #查询ID
+
+ser = pickle.dumps(x)
+print(ser)
+
+with open('E:/python-mage/test/ser', 'wb') as f:  # 写
+    f.write(ser)
+
+with open('E:/python-mage/test/ser', 'rb') as f:
+    a = pickle.load(f)
+    print(a, type(a))
+    print(hex(a.aaaa))
+    a.show()
+    print(id(a))
+'''
+
+
+def pickle_ser():
+    pass
+
+'''
+如果当Linux系统调用了这个文件ser，然后反序列化打印，此时问题出来了，
+
+with open('E:/python-mage/test/ser', 'rb') as f:
+    a = pickle.load(f)
+    print(a, type(a))
+    print(hex(a.aaaa))
+    a.show()
+    print(id(a))
+    
+如果直接编写一个Py文件去执行，会提示找不到AA类，因为文本中只存了AA并没有存AA的实例
+所以如果当网络传输进行实例化的时候应该要把实例化也带过去
+
+import pickle
+class AA:
+    aaaa = 0x111111
+    def show(self):
+        print('abc')
+        
+with open('E:/python-mage/test/ser', 'rb') as f:
+    a = pickle.load(f)
+    print(a, type(a))
+    print(hex(a.aaaa))
+    a.show()
+    print(id(a))
+
+这样运行才能找到实例化AA，才能打印出来。他会在当前环境去寻找实例化，要定义相同的规则
+规则相同就可以了，就能找到对应的类，因为类定定型一样
+
+import pickle
+class AA:
+    aaaa = 7293712938
+    def show(self):
+        print('12312423423')
+        
+with open('E:/python-mage/test/ser', 'rb') as f:
+    a = pickle.load(f)
+    print(a, type(a))
+    print(hex(a.aaaa))
+    a.show()
+    print(id(a))
+    
+'''
+
+
+
+
+
+
+def json_z():
+    import json
+    d = {'name':'tom', 'age':20, 'interest':['music', 'movie']}
+    j = json.dumps(d)
+    print(j, type(j))
+    print(len(j))
+
+    #{"name": "tom", "age": 20, "interest": ["music", "movie"]} <class 'str'>
+    d1 = json.loads(j)
+    print(d1, type(d1))
+    print(len(d1))
+    #{'name': 'tom', 'age': 20, 'interest': ['music', 'movie']} <class 'dict'>
+    #引号的变化，数据类型的变化
+
+    c1 = j.replace(' ','')
+    print(c1)
+    print(len(c1))
+    #{"name":"tom","age":20,"interest":["music","movie"]}   减少空格，无用字节
+    #方法把字符串中的 old（旧字符串） 替换成 new(新字符串)，如果指定第三个参数max，则替换不超过 max 次
+
+def msgpack_z():
+    import msgpack
+    v = {'name':'tom', 'age':20, 'interest':['music', 'movie']}
+
+    # a1 = msgpack.dumps(v)
+    # with open('E:/python-mage/test/ser', 'wb') as f:
+    #     f.write(a1)
+    a1 = msgpack.dumps(v)
+    print(a1, type(a1), len(a1))
+
+    u = msgpack.unpackb(a1)
+    print(u, type(u), len(u))
+
+    # p = msgpack.loads(a1, encoding='utf-8')
+    p = msgpack.loads(a1)
+    print(p, type(p), len(p))
+
+
+# json_z()
+# msgpack_z()
+
+
+
+
+
+
+
+
 
 
