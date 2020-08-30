@@ -101,6 +101,6 @@ def load(filename:str):  #寻找读取日志中的，正则取值
             else:
                 print('No match.{}'.format(fields))
 
-for x in load(r'E:\python-mage\mag363\test.log'):
+for x in load(r'E:\python-mage\mag363\configurefile\test.log'):
     print(x)
 
