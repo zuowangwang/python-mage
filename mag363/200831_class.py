@@ -67,14 +67,15 @@ print(s.__class__.test1.__qualname__)
 print(MyClass.__qualname__)
 print('~~~~~~~~~~~~~~~~~~~~~~~~~~~分隔符5')
 
-
-
-
-
-
-
-
-
+# git status  //查看当前修改的文件
+# git add . //上传到本地仓库
+# git commit -m  '提交的说明'
+# git push || git push -u //上传远程分支
+# 有文件冲突 就来取
+# git pull
+#
+#
+# git reset --hard 1b48e0b   #回退版本
 
 
 
