@@ -67,12 +67,114 @@ print(ci.getall())
 print('\n')
 
 
-#
+
 # 4、实现温度的处理
 # 实现华氏温度和摄氏温度的转换。
 # ℃ = 5 × (℉ - 32) / 9
 # ℉ = 9 × ℃ / 5 + 32
 # 完成以上转换后，增加与开氏温度的转换，K = ℃ + 273.15
+
+
+
+class Temperature:
+    def __init__(self, t, unit='c'):
+        self._c = None
+        self._f = None
+        self._k = None
+
+        if unit == 'k':
+            self._k = t
+            self._c = self.k2c(t)
+        elif unit == 'f':
+            self._f = t
+            self._c = self.f2c(t)
+        else:
+            self._c = t
+
+    @property
+    def c(self):  # 摄氏度
+        return self._c
+
+    @property
+    def k(self):  # 开氏温度
+        if self._k is None:
+            self._k = self.c2k(self._c)
+        return self._k
+
+    @property
+    def f(self):  # 华氏温度
+        if self._f is None:
+            self._f = self.c2f(self._c)
+        return self._f
+
+    @classmethod
+    def c2f(cls, c):
+        return 9 * c / 5 + 32
+
+    @classmethod
+    def f2c(cls, f):
+        return 5*(f-32)/9
+
+    @classmethod
+    def c2k(cls, c):
+        return c + 273.15
+
+    @classmethod
+    def k2c(cls, k):
+        return k - 273.15
+
+    @classmethod
+    def f2k(cls, f):
+        return cls.c2k(cls.f2c(f))
+
+    @classmethod
+    def k2f(cls, k):
+        return cls.c2f(cls.k2c(k))
+
+print(Temperature.c2f(40))
+print(Temperature.f2c(104.0))
+print(Temperature.c2k(40))
+print(Temperature.k2c(313.15))
+print(Temperature.f2k(104))
+print(Temperature.k2f(313.15))
+
+
+t = Temperature(40)
+print(t.c, t.k, t.f)
+
+t = Temperature(313.15, 'k')
+print(t.c, t.k, t.f)
+print('\n')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
