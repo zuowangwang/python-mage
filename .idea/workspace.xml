@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf81d9e-a469-4a06-94b8-db52738de7c8" name="Default" comment="119 72min 0908  类的继承">
-      <change afterPath="$PROJECT_DIR$/mag363/20090_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mag363/Completed/200909_bisect.py" afterDir="false" />
+    <list default="true" id="fbf81d9e-a469-4a06-94b8-db52738de7c8" name="Default" comment="121 1min 0909  类的多继承">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mag363/200903_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/20090.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mag363/200908_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/Completed/200908_类的继承.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mag363/20090_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/20090_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +155,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-mage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mag363/各种轮子" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mag363/各种轮子/冒泡排序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="200903_练习题" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-mage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,29 +287,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-mage" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mag363/各种轮子" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mag363/各种轮子/冒泡排序.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.冒泡排序" />
       <item itemvalue="Python.查询飞机票价格 (1)" />
       <item itemvalue="Python.200903_练习题" />
       <item itemvalue="Python.200908_类的继承" />
@@ -300,10 +298,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.20090_1" />
+        <item itemvalue="Python.查询飞机票价格 (1)" />
         <item itemvalue="Python.200909_bisect" />
         <item itemvalue="Python.200908_类的继承" />
         <item itemvalue="Python.200903_练习题" />
-        <item itemvalue="Python.查询飞机票价格 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +368,8 @@
       <workItem from="1599283865187" duration="1818000" />
       <workItem from="1599442622102" duration="609000" />
       <workItem from="1599546962526" duration="5073000" />
-      <workItem from="1599620230303" duration="4341000" />
+      <workItem from="1599620230303" duration="4995000" />
+      <workItem from="1599708559616" duration="5588000" />
     </task>
     <task id="LOCAL-00001" summary="'测试一下 - 提交联系'">
       <created>1588239034836</created>
@@ -498,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599560850827</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="121 1min 0909  类的多继承">
+      <created>1599646110124</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1599646110124</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +578,8 @@
     <MESSAGE value="118 1min 0902" />
     <MESSAGE value="118 35min 0903" />
     <MESSAGE value="119 72min 0908  类的继承" />
-    <option name="LAST_COMMIT_MESSAGE" value="119 72min 0908  类的继承" />
+    <MESSAGE value="121 1min 0909  类的多继承" />
+    <option name="LAST_COMMIT_MESSAGE" value="121 1min 0909  类的多继承" />
   </component>
   <component name="WindowStateProjectService">
     <state x="319" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598864163655">
@@ -585,47 +592,47 @@
     </state>
     <state x="600" y="319" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1594441717756" />
     <state x="600" y="319" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1599034677083" />
-    <state x="571" y="141" width="876" height="812" key="CommitChangelistDialog2" timestamp="1599560849869">
+    <state x="571" y="141" width="876" height="812" key="CommitChangelistDialog2" timestamp="1599646109231">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="571" y="141" key="CommitChangelistDialog2/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1597415117537" />
-    <state x="571" y="141" width="876" height="812" key="CommitChangelistDialog2/0.0.1728.1112@0.0.1728.1112" timestamp="1599560849869" />
+    <state x="571" y="141" width="876" height="812" key="CommitChangelistDialog2/0.0.1728.1112@0.0.1728.1112" timestamp="1599646109231" />
     <state x="663" y="303" key="FileChooserDialogImpl" timestamp="1597228572764">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state x="663" y="303" key="FileChooserDialogImpl/0.0.1728.1112@0.0.1728.1112" timestamp="1597228572764" />
-    <state width="1018" height="288" key="GridCell.Tab.0.bottom" timestamp="1599641094802">
+    <state width="1018" height="288" key="GridCell.Tab.0.bottom" timestamp="1599873572544">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state width="951" height="292" key="GridCell.Tab.0.bottom/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1595927990962" />
     <state width="947" height="402" key="GridCell.Tab.0.bottom/0.0.1728.1112/0.-1440.2560.1400@0.-1440.2560.1400" timestamp="1595858307228" />
     <state width="1685" height="385" key="GridCell.Tab.0.bottom/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1598792208716" />
     <state width="1424" height="186" key="GridCell.Tab.0.bottom/0.0.1728.1112/2160.0.2560.1400@0.0.1728.1112" timestamp="1594441536243" />
-    <state width="1018" height="288" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1599641094802" />
-    <state width="1018" height="288" key="GridCell.Tab.0.center" timestamp="1599641094802">
+    <state width="1018" height="288" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1599873572544" />
+    <state width="1018" height="288" key="GridCell.Tab.0.center" timestamp="1599873572544">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state width="951" height="292" key="GridCell.Tab.0.center/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1595927990962" />
     <state width="947" height="402" key="GridCell.Tab.0.center/0.0.1728.1112/0.-1440.2560.1400@0.-1440.2560.1400" timestamp="1595858307227" />
     <state width="1685" height="385" key="GridCell.Tab.0.center/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1598792208716" />
     <state width="1424" height="186" key="GridCell.Tab.0.center/0.0.1728.1112/2160.0.2560.1400@0.0.1728.1112" timestamp="1594441536243" />
-    <state width="1018" height="288" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1599641094802" />
-    <state width="1018" height="288" key="GridCell.Tab.0.left" timestamp="1599641094802">
+    <state width="1018" height="288" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1599873572544" />
+    <state width="1018" height="288" key="GridCell.Tab.0.left" timestamp="1599873572544">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state width="951" height="292" key="GridCell.Tab.0.left/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1595927990962" />
     <state width="947" height="402" key="GridCell.Tab.0.left/0.0.1728.1112/0.-1440.2560.1400@0.-1440.2560.1400" timestamp="1595858307227" />
     <state width="1685" height="385" key="GridCell.Tab.0.left/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1598792208716" />
     <state width="1424" height="186" key="GridCell.Tab.0.left/0.0.1728.1112/2160.0.2560.1400@0.0.1728.1112" timestamp="1594441536243" />
-    <state width="1018" height="288" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1599641094802" />
-    <state width="1018" height="288" key="GridCell.Tab.0.right" timestamp="1599641094802">
+    <state width="1018" height="288" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1599873572544" />
+    <state width="1018" height="288" key="GridCell.Tab.0.right" timestamp="1599873572544">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
     <state width="951" height="292" key="GridCell.Tab.0.right/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1595927990962" />
     <state width="947" height="402" key="GridCell.Tab.0.right/0.0.1728.1112/0.-1440.2560.1400@0.-1440.2560.1400" timestamp="1595858307227" />
     <state width="1685" height="385" key="GridCell.Tab.0.right/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1598792208716" />
     <state width="1424" height="186" key="GridCell.Tab.0.right/0.0.1728.1112/2160.0.2560.1400@0.0.1728.1112" timestamp="1594441536243" />
-    <state width="1018" height="288" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1599641094802" />
+    <state width="1018" height="288" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1599873572544" />
     <state width="1015" height="340" key="GridCell.Tab.1.bottom" timestamp="1599194152513">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
@@ -682,14 +689,14 @@
     <SUITE FILE_PATH="coverage/python_mage$200902_1.coverage" NAME="200902_1 Coverage Results" MODIFIED="1599128288235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200909_1.coverage" NAME="200909_bisect Coverage Results" MODIFIED="1599640706211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200908_1__1_.coverage" NAME="200908_1 (1) Coverage Results" MODIFIED="1599558382102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
-    <SUITE FILE_PATH="coverage/python_mage$20090_1.coverage" NAME="20090_1 Coverage Results" MODIFIED="1599641094793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$20090_1.coverage" NAME="20090_1 Coverage Results" MODIFIED="1599734169072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200901_MonkeyPatch.coverage" NAME="200901_MonkeyPatch Coverage Results" MODIFIED="1599011951962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200901_Private__1_.coverage" NAME="200901_Private (1) Coverage Results" MODIFIED="1598951593547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/Completed" />
     <SUITE FILE_PATH="coverage/python_mage$week_11_practise.coverage" NAME="week_11_practise Coverage Results" MODIFIED="1588849312975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200831_class__1_.coverage" NAME="200831_class Coverage Results" MODIFIED="1598925581784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$.coverage" NAME="冒泡排序 Coverage Results" MODIFIED="1594627612074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
     <SUITE FILE_PATH="coverage/python_mage$200902_2.coverage" NAME="200902_2 Coverage Results" MODIFIED="1599034691281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
-    <SUITE FILE_PATH="coverage/python_mage$__1_.coverage" NAME="查询飞机票价格 (1) Coverage Results" MODIFIED="1599097795929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
+    <SUITE FILE_PATH="coverage/python_mage$__1_.coverage" NAME="查询飞机票价格 (1) Coverage Results" MODIFIED="1599732760748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
     <SUITE FILE_PATH="coverage/python_mage$bilibiliDup.coverage" NAME="bilibiliDup Coverage Results" MODIFIED="1594870954086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
     <SUITE FILE_PATH="coverage/python_mage$bilibiliup.coverage" NAME="bilibiliup Coverage Results" MODIFIED="1594868776709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
     <SUITE FILE_PATH="coverage/python_mage$week_8_practise.coverage" NAME="week_8_practise Coverage Results" MODIFIED="1598863320091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
