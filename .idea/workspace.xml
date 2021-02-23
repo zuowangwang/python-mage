@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fbf81d9e-a469-4a06-94b8-db52738de7c8" name="Default" comment="121 1min 0909  类的多继承">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mag363/20090914_DIR.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/20090914_DIR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mag363/20090.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/210119.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mag363/20090914_DIR.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/210223_DIR.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +133,7 @@
       <recent name="E:\python-mage\assignment" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.20090914_DIR">
+  <component name="RunManager" selected="Python.210223_DIR">
     <configuration name="查询飞机票价格 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-mage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,28 +200,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20090914_DIR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-mage" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mag363" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mag363/20090914_DIR.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="20090914_Mixin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-mage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,16 +244,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="210223_DIR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-mage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mag363" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\python-mage\mag363\210223_DIR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.查询飞机票价格 (1)" />
       <item itemvalue="Python.200908_类的继承" />
       <item itemvalue="Python.200909_bisect" />
       <item itemvalue="Python.20090914_Mixin" />
-      <item itemvalue="Python.20090914_DIR" />
+      <item itemvalue="Python.210223_DIR" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.20090914_DIR" />
+        <item itemvalue="Python.210223_DIR" />
         <item itemvalue="Python.20090914_Mixin" />
         <item itemvalue="Python.查询飞机票价格 (1)" />
         <item itemvalue="Python.200909_bisect" />
@@ -349,6 +350,10 @@
       <workItem from="1599708559616" duration="5588000" />
       <workItem from="1600064249069" duration="18561000" />
       <workItem from="1600315334877" duration="3590000" />
+      <workItem from="1609142907153" duration="790000" />
+      <workItem from="1609143744811" duration="8000" />
+      <workItem from="1611039609390" duration="3023000" />
+      <workItem from="1613983028414" duration="778000" />
     </task>
     <task id="LOCAL-00001" summary="'测试一下 - 提交联系'">
       <created>1588239034836</created>
@@ -561,105 +566,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="121 1min 0909  类的多继承" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="319" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598864163655">
+    <state width="1685" height="361" key="GridCell.Tab.0.bottom" timestamp="1609143697365">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="319" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1594448454483" />
-    <state x="319" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1598864163655" />
-    <state x="600" y="319" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599034677083">
+    <state width="1685" height="361" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1609143697365" />
+    <state width="1685" height="361" key="GridCell.Tab.0.center" timestamp="1609143697365">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="600" y="319" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1594441717756" />
-    <state x="600" y="319" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1599034677083" />
-    <state x="571" y="141" width="876" height="812" key="CommitChangelistDialog2" timestamp="1599646109231">
+    <state width="1685" height="361" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1609143697365" />
+    <state width="1685" height="361" key="GridCell.Tab.0.left" timestamp="1609143697365">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="571" y="141" key="CommitChangelistDialog2/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1597415117537" />
-    <state x="571" y="141" width="876" height="812" key="CommitChangelistDialog2/0.0.1728.1112@0.0.1728.1112" timestamp="1599646109231" />
-    <state x="663" y="303" key="FileChooserDialogImpl" timestamp="1597228572764">
+    <state width="1685" height="361" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1609143697365" />
+    <state width="1685" height="361" key="GridCell.Tab.0.right" timestamp="1609143697365">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state x="663" y="303" key="FileChooserDialogImpl/0.0.1728.1112@0.0.1728.1112" timestamp="1597228572764" />
-    <state width="1018" height="288" key="GridCell.Tab.0.bottom" timestamp="1600416298939">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state width="951" height="292" key="GridCell.Tab.0.bottom/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1595927990962" />
-    <state width="947" height="402" key="GridCell.Tab.0.bottom/0.0.1728.1112/0.-1440.2560.1400@0.-1440.2560.1400" timestamp="1595858307228" />
-    <state width="1685" height="385" key="GridCell.Tab.0.bottom/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1598792208716" />
-    <state width="1424" height="186" key="GridCell.Tab.0.bottom/0.0.1728.1112/2160.0.2560.1400@0.0.1728.1112" timestamp="1594441536243" />
-    <state width="1018" height="288" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1600416298939" />
-    <state width="1018" height="288" key="GridCell.Tab.0.center" timestamp="1600416298938">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state width="951" height="292" key="GridCell.Tab.0.center/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1595927990962" />
-    <state width="947" height="402" key="GridCell.Tab.0.center/0.0.1728.1112/0.-1440.2560.1400@0.-1440.2560.1400" timestamp="1595858307227" />
-    <state width="1685" height="385" key="GridCell.Tab.0.center/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1598792208716" />
-    <state width="1424" height="186" key="GridCell.Tab.0.center/0.0.1728.1112/2160.0.2560.1400@0.0.1728.1112" timestamp="1594441536243" />
-    <state width="1018" height="288" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1600416298938" />
-    <state width="1018" height="288" key="GridCell.Tab.0.left" timestamp="1600416298938">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state width="951" height="292" key="GridCell.Tab.0.left/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1595927990962" />
-    <state width="947" height="402" key="GridCell.Tab.0.left/0.0.1728.1112/0.-1440.2560.1400@0.-1440.2560.1400" timestamp="1595858307227" />
-    <state width="1685" height="385" key="GridCell.Tab.0.left/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1598792208716" />
-    <state width="1424" height="186" key="GridCell.Tab.0.left/0.0.1728.1112/2160.0.2560.1400@0.0.1728.1112" timestamp="1594441536243" />
-    <state width="1018" height="288" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1600416298938" />
-    <state width="1018" height="288" key="GridCell.Tab.0.right" timestamp="1600416298938">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state width="951" height="292" key="GridCell.Tab.0.right/0.0.1728.1112/-1920.0.1920.1040@0.0.1728.1112" timestamp="1595927990962" />
-    <state width="947" height="402" key="GridCell.Tab.0.right/0.0.1728.1112/0.-1440.2560.1400@0.-1440.2560.1400" timestamp="1595858307227" />
-    <state width="1685" height="385" key="GridCell.Tab.0.right/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1598792208716" />
-    <state width="1424" height="186" key="GridCell.Tab.0.right/0.0.1728.1112/2160.0.2560.1400@0.0.1728.1112" timestamp="1594441536243" />
-    <state width="1018" height="288" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1600416298938" />
-    <state width="1015" height="340" key="GridCell.Tab.1.bottom" timestamp="1599194152513">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state width="1685" height="376" key="GridCell.Tab.1.bottom/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1594448328885" />
-    <state width="1015" height="340" key="GridCell.Tab.1.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1599194152513" />
-    <state width="1015" height="340" key="GridCell.Tab.1.center" timestamp="1599194152513">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state width="1685" height="376" key="GridCell.Tab.1.center/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1594448328885" />
-    <state width="1015" height="340" key="GridCell.Tab.1.center/0.0.1728.1112@0.0.1728.1112" timestamp="1599194152513" />
-    <state width="1015" height="340" key="GridCell.Tab.1.left" timestamp="1599194152513">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state width="1685" height="376" key="GridCell.Tab.1.left/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1594448328885" />
-    <state width="1015" height="340" key="GridCell.Tab.1.left/0.0.1728.1112@0.0.1728.1112" timestamp="1599194152513" />
-    <state width="1015" height="340" key="GridCell.Tab.1.right" timestamp="1599194152513">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state width="1685" height="376" key="GridCell.Tab.1.right/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1594448328885" />
-    <state width="1015" height="340" key="GridCell.Tab.1.right/0.0.1728.1112@0.0.1728.1112" timestamp="1599194152513" />
-    <state x="1087" y="288" key="RollbackChangesDialog" timestamp="1598865104631">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state x="1087" y="288" key="RollbackChangesDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1598865104631" />
-    <state x="344" y="166" key="SettingsEditor" timestamp="1598866064223">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state x="344" y="166" key="SettingsEditor/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1598791949012" />
-    <state x="344" y="166" key="SettingsEditor/0.0.1728.1112/2160.0.2560.1400@0.0.1728.1112" timestamp="1594441378531" />
-    <state x="344" y="166" key="SettingsEditor/0.0.1728.1112@0.0.1728.1112" timestamp="1598866064223" />
-    <state x="816" y="299" key="Vcs.Push.Dialog.v2" timestamp="1598924783564">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state x="816" y="299" key="Vcs.Push.Dialog.v2/0.0.1728.1112@0.0.1728.1112" timestamp="1598924783564" />
-    <state x="557" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1595905003978">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state x="557" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1112/0.-1440.2560.1400@0.0.1728.1112" timestamp="1595854013192" />
-    <state x="557" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1112/2160.0.2560.1400@0.0.1728.1112" timestamp="1592621399038" />
-    <state x="557" y="384" key="com.intellij.ide.util.TipDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1595905003978" />
-    <state x="1017" y="483" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600239979725">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state x="1017" y="483" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1728.1112@0.0.1728.1112" timestamp="1600239979725" />
-    <state x="946" y="160" width="782" height="801" key="find.popup" timestamp="1600239639425">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state x="946" y="160" width="782" height="801" key="find.popup/0.0.1728.1112@0.0.1728.1112" timestamp="1600239639425" />
+    <state width="1685" height="361" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1609143697365" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_mage$200831_1_copy.coverage" NAME="200831_1 copy Coverage Results" MODIFIED="1598864417911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
@@ -681,7 +603,7 @@
     <SUITE FILE_PATH="coverage/python_mage$week_8_practise.coverage" NAME="week_8_practise Coverage Results" MODIFIED="1598863320091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200831_1.coverage" NAME="200831_class Coverage Results" MODIFIED="1598869441057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$ttest1.coverage" NAME="ttest1 Coverage Results" MODIFIED="1588847697147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
-    <SUITE FILE_PATH="coverage/python_mage$20090914_DIR.coverage" NAME="20090914_DIR Coverage Results" MODIFIED="1600416298928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$20090914_DIR.coverage" NAME="20090914_DIR Coverage Results" MODIFIED="1609143620651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200901_Private.coverage" NAME="200901_Private Coverage Results" MODIFIED="1598950193808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$week_7_practise.coverage" NAME="week_7_practise Coverage Results" MODIFIED="1594444992298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200902_property.coverage" NAME="200902_property Coverage Results" MODIFIED="1599013137148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
