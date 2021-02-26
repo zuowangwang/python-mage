@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbf81d9e-a469-4a06-94b8-db52738de7c8" name="Default" comment="121 1min 0909  类的多继承">
+      <change afterPath="$PROJECT_DIR$/mag363/210226_threading.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mag363/20090.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/210119.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mag363/20090914_DIR.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/210223_DIR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mag363/210119.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/210226_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mag363/210223_DIR.py" beforeDir="false" afterPath="$PROJECT_DIR$/mag363/Completed/210223_DIR.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,13 +119,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\python-mage\mag363\Completed" />
-      <recent name="E:\python-mage\mag363\各种轮子" />
-      <recent name="E:\python-mage\mag363" />
-      <recent name="E:\python-mage" />
-      <recent name="E:\python-mage\assignment" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\python-mage\mag363" />
       <recent name="E:\python-mage\mag363\各种轮子" />
@@ -132,8 +126,15 @@
       <recent name="E:\python-mage\test" />
       <recent name="E:\python-mage\assignment" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python-mage\mag363\Completed" />
+      <recent name="E:\python-mage\mag363\各种轮子" />
+      <recent name="E:\python-mage\mag363" />
+      <recent name="E:\python-mage" />
+      <recent name="E:\python-mage\assignment" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.210223_DIR">
+  <component name="RunManager" selected="Python.210226_threading">
     <configuration name="查询飞机票价格 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-mage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,28 +149,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mag363/各种轮子/查询飞机票价格.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="200908_类的继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-mage" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mag363" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\python-mage\mag363\Completed\200908_类的继承.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,7 +236,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\python-mage\mag363\210223_DIR.py" />
+      <option name="SCRIPT_NAME" value="E:\python-mage\mag363\Completed\210223_DIR.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="210226_threading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-mage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mag363" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\python-mage\mag363\210226_threading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,18 +269,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.查询飞机票价格 (1)" />
-      <item itemvalue="Python.200908_类的继承" />
       <item itemvalue="Python.200909_bisect" />
       <item itemvalue="Python.20090914_Mixin" />
       <item itemvalue="Python.210223_DIR" />
+      <item itemvalue="Python.210226_threading" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.210226_threading" />
         <item itemvalue="Python.210223_DIR" />
         <item itemvalue="Python.20090914_Mixin" />
         <item itemvalue="Python.查询飞机票价格 (1)" />
         <item itemvalue="Python.200909_bisect" />
-        <item itemvalue="Python.200908_类的继承" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +354,7 @@
       <workItem from="1609142907153" duration="790000" />
       <workItem from="1609143744811" duration="8000" />
       <workItem from="1611039609390" duration="3023000" />
-      <workItem from="1613983028414" duration="778000" />
+      <workItem from="1613983028414" duration="16979000" />
     </task>
     <task id="LOCAL-00001" summary="'测试一下 - 提交联系'">
       <created>1588239034836</created>
@@ -566,46 +567,56 @@
     <option name="LAST_COMMIT_MESSAGE" value="121 1min 0909  类的多继承" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1685" height="361" key="GridCell.Tab.0.bottom" timestamp="1609143697365">
+    <state width="1050" height="333" key="GridCell.Tab.0.bottom" timestamp="1614333982672">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="361" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1609143697365" />
-    <state width="1685" height="361" key="GridCell.Tab.0.center" timestamp="1609143697365">
+    <state width="1050" height="333" key="GridCell.Tab.0.bottom/0.0.1728.1112@0.0.1728.1112" timestamp="1614333982672" />
+    <state width="1050" height="333" key="GridCell.Tab.0.center" timestamp="1614333982672">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="361" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1609143697365" />
-    <state width="1685" height="361" key="GridCell.Tab.0.left" timestamp="1609143697365">
+    <state width="1050" height="333" key="GridCell.Tab.0.center/0.0.1728.1112@0.0.1728.1112" timestamp="1614333982672" />
+    <state width="1050" height="333" key="GridCell.Tab.0.left" timestamp="1614333982671">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="361" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1609143697365" />
-    <state width="1685" height="361" key="GridCell.Tab.0.right" timestamp="1609143697365">
+    <state width="1050" height="333" key="GridCell.Tab.0.left/0.0.1728.1112@0.0.1728.1112" timestamp="1614333982671" />
+    <state width="1050" height="333" key="GridCell.Tab.0.right" timestamp="1614333982672">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
-    <state width="1685" height="361" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1609143697365" />
+    <state width="1050" height="333" key="GridCell.Tab.0.right/0.0.1728.1112@0.0.1728.1112" timestamp="1614333982672" />
+    <state x="970" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614248810406">
+      <screen x="0" y="0" width="1728" height="1112" />
+    </state>
+    <state x="970" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1728.1112@0.0.1728.1112" timestamp="1614248810406" />
+    <state x="855" y="292" width="642" height="534" key="find.popup" timestamp="1614249036613">
+      <screen x="0" y="0" width="1728" height="1112" />
+    </state>
+    <state x="855" y="292" width="642" height="534" key="find.popup/0.0.1728.1112@0.0.1728.1112" timestamp="1614249036613" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_mage$200831_1_copy.coverage" NAME="200831_1 copy Coverage Results" MODIFIED="1598864417911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200901___1_.coverage" NAME="200901_class_G Coverage Results" MODIFIED="1598949848996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$200908_1__1_.coverage" NAME="200908_1 (1) Coverage Results" MODIFIED="1599558382102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$200901_Private__1_.coverage" NAME="200901_Private (1) Coverage Results" MODIFIED="1598951593547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/Completed" />
+    <SUITE FILE_PATH="coverage/python_mage$week_11_practise.coverage" NAME="week_11_practise Coverage Results" MODIFIED="1588849312975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$.coverage" NAME="冒泡排序 Coverage Results" MODIFIED="1594627612074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
+    <SUITE FILE_PATH="coverage/python_mage$200902_2.coverage" NAME="200902_2 Coverage Results" MODIFIED="1599034691281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$bilibiliup.coverage" NAME="bilibiliup Coverage Results" MODIFIED="1594868776709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
+    <SUITE FILE_PATH="coverage/python_mage$ttest1.coverage" NAME="ttest1 Coverage Results" MODIFIED="1588847697147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$200901_Private.coverage" NAME="200901_Private Coverage Results" MODIFIED="1598950193808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$210226.coverage" NAME="210226_threading Coverage Results" MODIFIED="1614333982662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$week_7_practise.coverage" NAME="week_7_practise Coverage Results" MODIFIED="1594444992298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200903_.coverage" NAME="200903_练习题 Coverage Results" MODIFIED="1599558315827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200902_1.coverage" NAME="200902_1 Coverage Results" MODIFIED="1599128288235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200909_1.coverage" NAME="200909_bisect Coverage Results" MODIFIED="1599640706211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
-    <SUITE FILE_PATH="coverage/python_mage$200908_1__1_.coverage" NAME="200908_1 (1) Coverage Results" MODIFIED="1599558382102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$20090_1.coverage" NAME="20090914_Mixin Coverage Results" MODIFIED="1600075828325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200901_MonkeyPatch.coverage" NAME="200901_MonkeyPatch Coverage Results" MODIFIED="1599011951962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
-    <SUITE FILE_PATH="coverage/python_mage$200901_Private__1_.coverage" NAME="200901_Private (1) Coverage Results" MODIFIED="1598951593547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/Completed" />
-    <SUITE FILE_PATH="coverage/python_mage$week_11_practise.coverage" NAME="week_11_practise Coverage Results" MODIFIED="1588849312975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200831_class__1_.coverage" NAME="200831_class Coverage Results" MODIFIED="1598925581784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
-    <SUITE FILE_PATH="coverage/python_mage$.coverage" NAME="冒泡排序 Coverage Results" MODIFIED="1594627612074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
-    <SUITE FILE_PATH="coverage/python_mage$200902_2.coverage" NAME="200902_2 Coverage Results" MODIFIED="1599034691281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$__1_.coverage" NAME="查询飞机票价格 (1) Coverage Results" MODIFIED="1599732760748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
     <SUITE FILE_PATH="coverage/python_mage$bilibiliDup.coverage" NAME="bilibiliDup Coverage Results" MODIFIED="1594870954086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
-    <SUITE FILE_PATH="coverage/python_mage$bilibiliup.coverage" NAME="bilibiliup Coverage Results" MODIFIED="1594868776709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363/各种轮子" />
     <SUITE FILE_PATH="coverage/python_mage$week_8_practise.coverage" NAME="week_8_practise Coverage Results" MODIFIED="1598863320091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200831_1.coverage" NAME="200831_class Coverage Results" MODIFIED="1598869441057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
-    <SUITE FILE_PATH="coverage/python_mage$ttest1.coverage" NAME="ttest1 Coverage Results" MODIFIED="1588847697147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$20090914_DIR.coverage" NAME="20090914_DIR Coverage Results" MODIFIED="1609143620651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
-    <SUITE FILE_PATH="coverage/python_mage$200901_Private.coverage" NAME="200901_Private Coverage Results" MODIFIED="1598950193808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
-    <SUITE FILE_PATH="coverage/python_mage$week_7_practise.coverage" NAME="week_7_practise Coverage Results" MODIFIED="1594444992298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
+    <SUITE FILE_PATH="coverage/python_mage$210223_DIR.coverage" NAME="210223_DIR Coverage Results" MODIFIED="1614312087629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
     <SUITE FILE_PATH="coverage/python_mage$200902_property.coverage" NAME="200902_property Coverage Results" MODIFIED="1599013137148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mag363" />
   </component>
 </project>

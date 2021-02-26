@@ -151,8 +151,6 @@
 
 
 
-
-
 class A:
     def __init__(self, name, age=18):
         self.name = name
@@ -224,12 +222,15 @@ class A:
 # print(a['k'])
 
 
-print(1)
 
-
-
-
-
+# class A:
+#     def b(self):
+#         print('~~~~')
+#     def __init__(self):
+#         self.b = 3000
+#
+# a = A()
+# print(a.b)
 
 
 
